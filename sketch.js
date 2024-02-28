@@ -131,7 +131,7 @@ function d() {
     let Z = 10+(frameCount % 100);
     // for (let Z=0;Z<1000;Z+=t*50){
 
-    translate(-width / 2 + nosex, 60+ -height / 2 + nosey, Z*(Z/4));
+    translate(-width / 2 + nosex, -height / 2 + nosey +25, Z*(Z/4));
     
     let change = [comet,fire,pink];
     
